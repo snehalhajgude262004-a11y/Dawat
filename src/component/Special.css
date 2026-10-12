@@ -1,0 +1,71 @@
+.package h2{
+    color:orangered;
+}
+.package a{
+    color:orangered;
+    border:1px solid orangered;
+}
+.package a:hover{
+    color:white;
+    background-color: orangered;
+    font-weight: bold;
+}
+.package{
+    background-image:linear-gradient(rgba(20, 19, 19, 0.7),rgba(32, 30, 30, 0.7)), url('/Images/Background/special background.jpg');
+    background-repeat: no-repeat;
+    padding:15px;
+}
+.white{
+    background-color: white;
+    padding:30px;
+}
+.white h3{
+    font-weight: bolder;
+}
+.white a{
+    padding:10px 20px;
+}
+.white p{
+    padding-bottom: 20px;
+}
+.white{
+    margin-bottom:100px;
+}
+.package h2{
+    font-style:italic;
+    font-size:30px ;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+@media(min-width:768px){
+    .packimg{
+      height:450px;padding-bottom: 0px;
+    }
+    .white{
+        height:300px;
+        width:400px;
+        position: relative;
+        bottom:380px;
+        left:338px;
+    }
+    .package{
+    height:800px;
+    }
+}
+@media(min-width:991px){
+    .package{
+    height:800px;
+    }
+    .package h2{
+        padding-top:80px;
+        font-size: 50px;
+    }
+    .packimg{
+        width:800px;
+        margin-left:180px;
+    }
+    .white{
+        position: relative;
+        left:840px;
+    }
+}

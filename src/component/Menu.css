@@ -1,0 +1,45 @@
+.menu-sec img{
+    width:120px;
+    height:120px;
+    border:10px solid rgb(207, 204, 204);
+    border-radius: 50%;
+    margin-top:40px;
+}
+.menu-sec h2{
+    color:orangered;
+    font-style: italic;
+    font-size:40px;
+    padding-bottom:30px;
+}
+.timings a{
+    border:1px solid black;
+    padding:10px;
+}
+.timings a:hover{
+    background-color:orangered;
+    color:white;
+    font-weight: bold;
+    border:none;
+}
+.timings{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    row-gap:30px;
+    justify-content:center;
+    margin-bottom:40px;
+}
+.menu-price{
+    color:orangered;
+    font-size: 20px;
+    padding-left:10px;
+}
+@media(min-width:768px){
+    .recipe{
+        display:flex;
+        flex-wrap: wrap !important ;
+    }
+    .recipe li{
+        padding: 10px 100px;
+    }
+}

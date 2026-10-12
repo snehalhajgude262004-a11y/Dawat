@@ -1,0 +1,22 @@
+.our img{
+     height:100px;
+     padding-bottom: 2px;
+}
+.our h2{
+    color:orangered; 
+    text-align:center;
+    padding-top: 70px;
+    font-size:40px;
+    font-style: oblique;
+}
+@media(min-width:991px){
+    .pad{
+        padding-left:120px;
+    }
+    .pad1{
+        padding-right: 120px;
+    }
+    .our img{
+        height:150px;
+    }
+}

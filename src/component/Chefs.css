@@ -1,0 +1,13 @@
+.chef h2{
+    color:orangered;
+    font-style: italic;
+    font-size:30px ;
+    text-align: center;
+    padding: 40px;
+}
+.chef img{
+    height:320px;
+    margin:10px;
+    width: 100%;
+
+}

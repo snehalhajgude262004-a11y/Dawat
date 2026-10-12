@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width:100%;
+}
+.navtop{
+    background-image:linear-gradient(rgba(31, 29, 29, 0.7),rgba(51, 48, 48, 0.7)) ,url('/Images/Background/hero-background.jpg');
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+.hero h1{
+    text-align: center;
+    padding-bottom:20px;
+    font-size:30px;
+}
+.hero h2{
+    text-align: center;
+    padding-top:150px;
+    font-style: italic;
+    font-size:45px
+}
+.hero a{
+    text-align:center;
+    border:1px solid white;
+    padding:8px 20px;
+    font-size:20px;
+    margin-left:25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.hero a:hover{
+     background-color: orangered;
+     border:none
+}
+.mobile-nav img{
+    width: 160px;
+}
+.mobile-nav{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: #212324;
+}
+.mobile-nav i{
+    font-size: 30px;
+  border: 1px solid white;
+  padding: 5px;
+}
+@media(min-width:768px){
+.mobile-nav {
+padding-right: 0px;
+}
+.hero a{
+margin-left: 250px;
+margin-top:100px;
+}
+.hero h2{
+    font-size:80px;
+    padding-top: 430px;
+}
+.hero h1{
+    font-size:35px;
+}
+.navtop {
+    height:1250px;
+}
+}
+@media(min-width:991px){
+    .mainlogo{
+    width:200px;
+    margin-left:100px;
+
+}
+.navtop ul{
+   display:flex;
+   column-gap:20px;
+   margin-left:100px;
+}
+.navtop ul a:hover{
+    color: orangered;
+}
+.navtop{
+    height:740px;
+}
+.up{
+    padding-top:50px;
+}
+.hero h1{
+    text-align: center;
+    padding-bottom:20px;
+    font-size:50px;
+}
+.hero h2{
+    text-align: center;
+    padding-top:200px;
+    font-style: italic;
+    font-size:40px
+}
+.hero a{
+    text-align:center;
+    border:1px solid white;
+    padding:10px 20px;
+    margin-left:650px;
+    font-size:20px;
+
+}
+.hero a:hover{
+     background-color: orangered;
+     border:none
+}
+}
